@@ -11,12 +11,9 @@ void main() {
           create: (_) => TaskProvider(),
         ),
       ],
-
       child: const MyApp(),
     ),
   );
-
-
 }
 
 class MyApp extends StatelessWidget {
