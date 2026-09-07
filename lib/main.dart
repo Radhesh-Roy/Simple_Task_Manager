@@ -19,7 +19,6 @@ void main() {
 
 
 class MyApp extends StatelessWidget {
-  git
 
   const MyApp({super.key});
   @override
