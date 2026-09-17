@@ -4,7 +4,6 @@ import 'package:simple_task/task_provider/task_provider.dart';
 import 'package:simple_task/view-page/task_view.dart';
 void main() {
   runApp(
-
     MultiProvider(
       providers: [
         ChangeNotifierProvider(
