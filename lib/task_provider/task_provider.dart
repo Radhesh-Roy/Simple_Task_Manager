@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class TaskProvider extends ChangeNotifier {
   final List<Map<String, dynamic>> tasks = [];
-
   void addTask(String title) {
     if (title.trim().isEmpty) {
       return;
