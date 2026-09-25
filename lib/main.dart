@@ -10,7 +10,6 @@ void main() {
           create: (_) => TaskProvider(),
         ),
       ],
-
       child: const MyApp(),
 
     ),
