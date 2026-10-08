@@ -14,7 +14,6 @@ class TaskProvider extends ChangeNotifier {
   }
   void deleteTask(int index) {
     tasks.removeAt(index);
-
     notifyListeners();
   }
   void toggleTask(int index) {
