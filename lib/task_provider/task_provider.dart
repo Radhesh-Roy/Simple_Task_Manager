@@ -20,7 +20,6 @@ class TaskProvider extends ChangeNotifier {
   void toggleTask(int index) {
     tasks[index]["isCompleted"] =
     !tasks[index]["isCompleted"];
-
     notifyListeners();
   }
 }
