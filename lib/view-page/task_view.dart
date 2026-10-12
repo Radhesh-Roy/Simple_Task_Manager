@@ -47,7 +47,6 @@ class _TaskViewState extends State<TaskView> {
                     context.read<TaskProvider>().addTask(taskController.text);
                     taskController.clear();
                   },
-
                   child: Text("Add Task"),
                 ),
               ],
