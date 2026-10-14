@@ -41,6 +41,7 @@ class _TaskViewState extends State<TaskView> {
                     ),
                   ),
                 ),
+
                 SizedBox(width: 10),
                 ElevatedButton(
                   onPressed: () {
