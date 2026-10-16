@@ -18,11 +18,9 @@ class _TaskViewState extends State<TaskView> {
     taskController.dispose();
     super.dispose();
   }
-
   @override
   Widget build(BuildContext context) {
     final taskProvider = context.watch<TaskProvider>();
-
     return Scaffold(
       appBar: AppBar(title: Text("Task Manager")),
       body: Padding(
