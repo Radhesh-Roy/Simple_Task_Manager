@@ -25,7 +25,6 @@ class _TaskViewState extends State<TaskView> {
 
     return Scaffold(
       appBar: AppBar(title: Text("Task Manager")),
-
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
