@@ -8,7 +8,6 @@ class TaskView extends StatefulWidget {
   @override
   State<TaskView> createState() => _TaskViewState();
 }
-
 class _TaskViewState extends State<TaskView> {
   final TextEditingController taskController = TextEditingController();
 
