@@ -10,8 +10,8 @@ class TaskView extends StatefulWidget {
 }
 class _TaskViewState extends State<TaskView> {
   final TextEditingController taskController = TextEditingController();
-
   @override
+
   void dispose() {
     taskController.dispose();
     super.dispose();
