@@ -14,7 +14,6 @@ class _TaskViewState extends State<TaskView> {
   void dispose() {
     taskController.dispose();
     super.dispose();
-
   }
   @override
   Widget build(BuildContext context) {
