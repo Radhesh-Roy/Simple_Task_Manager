@@ -47,6 +47,7 @@ class _TaskViewState extends State<TaskView> {
             ),
             SizedBox(height: 20),
             Expanded(
+
               child: taskProvider.tasks.isEmpty ? Center(
                       child: Text(
                         "No Tasks Available",
