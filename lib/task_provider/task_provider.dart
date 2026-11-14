@@ -5,6 +5,7 @@ class TaskProvider extends ChangeNotifier {
     if (title.trim().isEmpty) {
       return;
     }
+
     tasks.add({
       "title": title.trim(),
       "isCompleted": false,
