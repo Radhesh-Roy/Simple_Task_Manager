@@ -20,5 +20,4 @@ class TaskProvider extends ChangeNotifier {
     !tasks[index]["isCompleted"];
     notifyListeners();
   }
-
 }
