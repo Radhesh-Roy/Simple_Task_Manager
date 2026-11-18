@@ -15,6 +15,7 @@ class TaskProvider extends ChangeNotifier {
     tasks.removeAt(index);
     notifyListeners();
   }
+
   void toggleTask(int index) {
     tasks[index]["isCompleted"] =
     !tasks[index]["isCompleted"];
